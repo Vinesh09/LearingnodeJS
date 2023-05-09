@@ -1,0 +1,23 @@
+extends base
+
+block content
+  main.main
+    .login-form
+      h2.heading-secondary.ma-bt-lg Register Yourself with Us
+      form.form.form--signUp
+        .form__group
+          label.form__label(for='name') Your Fullname
+          input#name.form__input(type='text', placeholder='John Snow', required)
+        .form__group
+          label.form__label(for='email') Your Email address
+          input#email.form__input(type='email', placeholder='Johnsnow@example.com', required)
+
+        .form__group.ma-bt-md
+          label.form__label(for='password') Password
+          input#password.form__input(type='password', placeholder='••••••••', required, minlength='8')
+        .form__group.ma-bt-md
+          label.form__label(for='passwordConfirm') Re-Enter Password
+          input#passwordConfirm.form__input(type='password', placeholder='••••••••', required, minlength='8')
+        
+        .form__group
+          button.btn.btn--green Create Account

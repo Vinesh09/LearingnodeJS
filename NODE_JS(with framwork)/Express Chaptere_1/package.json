@@ -1,0 +1,16 @@
+{
+    "name": "express-chaptere_1",
+    "version": "1.0.0",
+    "description": "first node_Express chapter1",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon app.js -e js,hbs,html,"
+    },
+    "author": "vinesh",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2",
+        "hbs": "^4.2.0",
+        "requests": "^0.3.0"
+    }
+}

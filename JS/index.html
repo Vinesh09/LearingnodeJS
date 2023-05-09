@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    body {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    blck-block {
+        background-color: rgb(19, 32, 5);
+        text-align: center;
+        width: 100px;
+    }
+    
+    h1 {
+        color: goldenrod;
+    }
+    
+    button {
+        color: #1a2720;
+        background-color: rgb(100, 100, 117);
+        padding: 13px;
+        font-weight: bold;
+    }
+    
+    input {
+        display: flex;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid #5f9341;
+        margin: 10px 0 10px 0;
+    }
+    
+    .cus-btn {
+        color: white;
+        font-style: #5b9936;
+        border: none;
+    }
+    
+    .cus-btn:active {
+        background-color: rgb(228, 104, 104);
+    }
+</style>
+
+<body>
+    <ul id="fruits">
+        <li>apple</li>
+        <li>oranges</li>
+        <li>banana</li>
+    </ul>
+    <ul id="veg">
+        <li>carrots</li>
+        <li>potatoes</li>
+        <li>onions</li>
+    </ul>
+    <ul id="desert">
+        <li>ice cream </li>
+        <li>cake </li>
+        <li>pie</li>
+    </ul>
+    <h3 id="label">0</h3>
+    <h1>People entered: <span id="count">0</span></h1>
+    <button id="Increment-btn" onclick="increment()">Increment </button>
+    <button id="save-btn" onclick="_save()">save </button>
+    <p id="enteries">Previous enteries : </p>
+    <hr>
+    <span id=num1></span>
+    <span id=num2></span>
+    <br>
+    <button onclick="add()">Add</button>
+    <button onclick="sub()">subtract</button>
+    <button onclick="multiply()">Multiply</button>
+    <button onclick="divide()">Divide</button>
+    <p>Result :- <strong><span id="total"></span></strong> </p>
+
+    <hr>
+    <div class="blck-block">
+        <h1> BlackJack </h1>
+        <p id="message-el">Want to play a round ?</p>
+        <p id="cards">Card:</p>
+        <p>Sum: <span id="sum"></span></p>
+        <button id="startGame" onclick="startgame()"> START GAME </button>
+        <button id="new-card" onclick="newcard()"> New Card </button>
+
+    </div>
+
+    <hr>
+    <input type="text" id="input-val">
+    <button class="cus-btn" id="input-btn" type="button">Save Input</button>
+    <ul id="ul-ls"></ul>
+    <hr>
+    <!-- <h3 id="label">0</h3>
+    <button id="dec">Decrease</button>
+    <button id="re">Reset</button>
+    <button id="inc">Increase</button> -->
+    <button id="msgshow">Check Msg</button>
+
+    <label for="round"></label>
+
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">HTML</label><br>
+    <input type="radio" id="css" name="fav_language" value="CSS">
+    <label for="css">CSS</label><br>
+    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+    <label for="javascript">JavaScript</label>
+
+</body>
+<script src="index.js"></script>
+
+</html>

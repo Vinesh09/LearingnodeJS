@@ -1,0 +1,17 @@
+{
+    "name": "node_js",
+    "version": "1.0.0",
+    "description": "\"first step toward  node js\"",
+    "main": "src/app.js",
+    "scripts": {
+        "start": "nodemon src/app.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.22"
+    }
+}

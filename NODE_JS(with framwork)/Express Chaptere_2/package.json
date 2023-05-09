@@ -1,0 +1,34 @@
+{
+    "name": "express-chaptere_2",
+    "version": "1.0.0",
+    "description": "\"creating simple project using express\"",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon server.js -e js,pug,html",
+        "start:prod": "NODE_ENV=production nodemon server.js",
+        "watch": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js"
+    },
+    "author": "vinesh",
+    "license": "ISC",
+    "dependencies": {
+        "@babel/polyfill": "^7.12.1",
+        "axios": "^1.3.6",
+        "bcrypt": "^5.1.0",
+        "cookie-parser": "^1.4.6",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "html-to-text": "^9.0.5",
+        "jquery": "^3.6.4",
+        "jsonwebtoken": "^9.0.0",
+        "mongoose": "^7.0.3",
+        "morgan": "^1.10.0",
+        "multer": "^1.4.5-lts.1",
+        "nodemailer": "^6.9.1",
+        "parcel-bundler": "^1.12.5",
+        "pug": "^3.0.2",
+        "sharp": "^0.32.0",
+        "slugify": "^1.6.6",
+        "stripe": "^12.3.0",
+        "validator": "^13.9.0"
+    }
+}
